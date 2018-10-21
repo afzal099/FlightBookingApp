@@ -1,0 +1,20 @@
+PODS:
+  - FSCalendar (2.8.0)
+  - lottie-ios (2.5.2)
+
+DEPENDENCIES:
+  - FSCalendar
+  - lottie-ios
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FSCalendar
+    - lottie-ios
+
+SPEC CHECKSUMS:
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+
+PODFILE CHECKSUM: fa6fc201fb65ca5aa122aaa433810e1773580c36
+
+COCOAPODS: 1.5.3

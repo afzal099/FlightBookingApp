@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		42016F76217C4280000D0EDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42016F75217C4280000D0EDD /* AppDelegate.swift */; };
-		42016F78217C4280000D0EDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42016F77217C4280000D0EDD /* ViewController.swift */; };
 		42016F7B217C4280000D0EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42016F79217C4280000D0EDD /* Main.storyboard */; };
 		42016F7D217C4282000D0EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42016F7C217C4282000D0EDD /* Assets.xcassets */; };
 		42016F80217C4282000D0EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42016F7E217C4282000D0EDD /* LaunchScreen.storyboard */; };
 		42016F8B217C4282000D0EDD /* FlightBookingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42016F8A217C4282000D0EDD /* FlightBookingAppTests.swift */; };
+		42016F97217C550C000D0EDD /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42016F96217C550C000D0EDD /* HomePageViewController.swift */; };
+		659DF2FEBE1988663BD9F4F7 /* Pods_FlightBookingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008626AF3C6BB551707E3E02 /* Pods_FlightBookingApp.framework */; };
+		B8C9C2E53A661869CEBB1658 /* Pods_FlightBookingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386B45F41DAFE31F97A79B1C /* Pods_FlightBookingAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008626AF3C6BB551707E3E02 /* Pods_FlightBookingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlightBookingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		386B45F41DAFE31F97A79B1C /* Pods_FlightBookingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlightBookingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42016F72217C4280000D0EDD /* FlightBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42016F75217C4280000D0EDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42016F77217C4280000D0EDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42016F7A217C4280000D0EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42016F7C217C4282000D0EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42016F7F217C4282000D0EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		42016F86217C4282000D0EDD /* FlightBookingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightBookingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42016F8A217C4282000D0EDD /* FlightBookingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBookingAppTests.swift; sourceTree = "<group>"; };
 		42016F8C217C4282000D0EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42016F96217C550C000D0EDD /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		5E34E9AA27AB49ACEAE8AEAE /* Pods-FlightBookingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightBookingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlightBookingAppTests/Pods-FlightBookingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EC6EC0CD8D301BC0F5FF860 /* Pods-FlightBookingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightBookingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlightBookingApp/Pods-FlightBookingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		73139F7CA90FCA4FA76765CA /* Pods-FlightBookingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightBookingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlightBookingAppTests/Pods-FlightBookingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECF003855DA120034A51473B /* Pods-FlightBookingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightBookingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlightBookingApp/Pods-FlightBookingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659DF2FEBE1988663BD9F4F7 /* Pods_FlightBookingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C9C2E53A661869CEBB1658 /* Pods_FlightBookingAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				42016F74217C4280000D0EDD /* FlightBookingApp */,
 				42016F89217C4282000D0EDD /* FlightBookingAppTests */,
 				42016F73217C4280000D0EDD /* Products */,
+				93BFC3B3153FF6CF167037B8 /* Pods */,
+				D60E89FA624C7381EFE6F1F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +89,8 @@
 		42016F74217C4280000D0EDD /* FlightBookingApp */ = {
 			isa = PBXGroup;
 			children = (
+				42016F95217C54C3000D0EDD /* HomePage */,
 				42016F75217C4280000D0EDD /* AppDelegate.swift */,
-				42016F77217C4280000D0EDD /* ViewController.swift */,
 				42016F79217C4280000D0EDD /* Main.storyboard */,
 				42016F7C217C4282000D0EDD /* Assets.xcassets */,
 				42016F7E217C4282000D0EDD /* LaunchScreen.storyboard */,
@@ -96,6 +108,34 @@
 			path = FlightBookingAppTests;
 			sourceTree = "<group>";
 		};
+		42016F95217C54C3000D0EDD /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				42016F96217C550C000D0EDD /* HomePageViewController.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		93BFC3B3153FF6CF167037B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6EC0CD8D301BC0F5FF860 /* Pods-FlightBookingApp.debug.xcconfig */,
+				ECF003855DA120034A51473B /* Pods-FlightBookingApp.release.xcconfig */,
+				73139F7CA90FCA4FA76765CA /* Pods-FlightBookingAppTests.debug.xcconfig */,
+				5E34E9AA27AB49ACEAE8AEAE /* Pods-FlightBookingAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D60E89FA624C7381EFE6F1F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				008626AF3C6BB551707E3E02 /* Pods_FlightBookingApp.framework */,
+				386B45F41DAFE31F97A79B1C /* Pods_FlightBookingAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42016F8F217C4282000D0EDD /* Build configuration list for PBXNativeTarget "FlightBookingApp" */;
 			buildPhases = (
+				AB8B1170529EC7AB03E2683D /* [CP] Check Pods Manifest.lock */,
 				42016F6E217C4280000D0EDD /* Sources */,
 				42016F6F217C4280000D0EDD /* Frameworks */,
 				42016F70217C4280000D0EDD /* Resources */,
+				78F0C12EB8A015AFAF67ADF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42016F92217C4282000D0EDD /* Build configuration list for PBXNativeTarget "FlightBookingAppTests" */;
 			buildPhases = (
+				A33CD01ED6F5940ADB74791C /* [CP] Check Pods Manifest.lock */,
 				42016F82217C4282000D0EDD /* Sources */,
 				42016F83217C4282000D0EDD /* Frameworks */,
 				42016F84217C4282000D0EDD /* Resources */,
@@ -192,12 +235,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78F0C12EB8A015AFAF67ADF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlightBookingApp/Pods-FlightBookingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlightBookingApp/Pods-FlightBookingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A33CD01ED6F5940ADB74791C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlightBookingAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB8B1170529EC7AB03E2683D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlightBookingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42016F6E217C4280000D0EDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42016F78217C4280000D0EDD /* ViewController.swift in Sources */,
+				42016F97217C550C000D0EDD /* HomePageViewController.swift in Sources */,
 				42016F76217C4280000D0EDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +472,7 @@
 		};
 		42016F90217C4282000D0EDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC6EC0CD8D301BC0F5FF860 /* Pods-FlightBookingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +491,7 @@
 		};
 		42016F91217C4282000D0EDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF003855DA120034A51473B /* Pods-FlightBookingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +510,7 @@
 		};
 		42016F93217C4282000D0EDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73139F7CA90FCA4FA76765CA /* Pods-FlightBookingAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +532,7 @@
 		};
 		42016F94217C4282000D0EDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E34E9AA27AB49ACEAE8AEAE /* Pods-FlightBookingAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -8,15 +8,31 @@
 
 import UIKit
 
-class HomePageViewController: UIViewController {
+class HomePageViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.title = "Search Flight"
+        configureData()
     }
     
-
+    @IBAction func searchFlightsAction(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "ShowAirportSearchPage", sender: nil)
+    }
+    
+    private func configureData() {
+        self.showLoadingIndicator()
+        DispatchQueue.global(qos: .background).async {
+            if let error = AirportDataManager.shared.configure() {
+                self.displayErrorAlert(error: error)
+            }
+            DispatchQueue.main.async {
+                self.hideLoadingIndicator()
+            }
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -8,15 +8,29 @@
 
 import UIKit
 
+protocol AirportSearchViewControllerDelegate  {
+    func didSelectAirport(airport: Airport, type: InputViewType)
+}
+
 class AirportSearchViewController: BaseViewController {
 
+    var delegate: AirportSearchViewControllerDelegate?
     let searchController = UISearchController(searchResultsController: nil)
     var filteredAirports: [Airport]?
+    var inputType = InputViewType.None
+    
     @IBOutlet weak var searchResultTableView: UITableView!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        self.title = "Search"
+        setupSearchController()
+    }
+    
+    //MARK: - Custom
     
     private func setupSearchController() {
-        
-        // Setup the Search Controller
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.searchBar.placeholder = "Search Airports"
@@ -29,31 +43,10 @@ class AirportSearchViewController: BaseViewController {
         return searchController.searchBar.text?.isEmpty ?? true
     }
     
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        self.title = "Search"
-        setupSearchController()
-    }
-    
     func filterContentForSearchText(_ searchText: String) {
-        self.filteredAirports = AirportDataManager.shared.airports?.filter({( airport : Airport) -> Bool in
-            return airport.searchTags().lowercased().contains(searchText.lowercased())
-        })
+        self.filteredAirports = AirportDataManager.shared.filteredAirports(searchKey: searchText.lowercased())
         searchResultTableView.reloadData()
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 
@@ -83,6 +76,14 @@ extension AirportSearchViewController: UITableViewDelegate, UITableViewDataSourc
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return Constants.kkAirportSearchResultCellHeight
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let selectedAirport = self.filteredAirports?[indexPath.row] else {
+            return
+        }
+        self.delegate?.didSelectAirport(airport: selectedAirport, type: self.inputType)
+        self.navigationController?.popViewController(animated: true)
     }
     
 }

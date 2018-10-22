@@ -16,7 +16,6 @@ class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         configureLoadingView()
     }
     
@@ -26,7 +25,7 @@ class BaseViewController: UIViewController {
         self.loadingView.layer.borderColor = UIColor.black.cgColor
         let animationView = LOTAnimationView(name: "Plane")
         self.loadingView.addSubview(animationView)
-        animationView.autoReverseAnimation = true
+        animationView.autoReverseAnimation = false
         animationView.loopAnimation = true
         animationView.play()
         animationView.frame = CGRect(x: 0, y: 0, width: Constants.kLoadingViewWidth, height: Constants.kLoadingViewHeight)
@@ -56,18 +55,22 @@ class BaseViewController: UIViewController {
             case .NoInternet:
                 alertTitle = Constants.kNoInternetAlertTitle
                 alertBody = Constants.kNoInternetAlertBody
-            case .PersistenceError:
-                alertTitle = Constants.kPersistenceErrorAlertTitle
-                alertBody = Constants.kPersistenceErrorAlertBody
+            case .ConfigError:
+                alertTitle = Constants.kConfigErrorAlertTitle
+                alertBody = Constants.kConfigErrorAlertBody
             default:
                 alertTitle = Constants.kGenericErrorAlertTitle
                 alertBody = Constants.kGenericErrorAlertBody
             }
             
-            let alert = UIAlertController(title: alertTitle, message: alertBody, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: Constants.kOkButtonTitle, style: .default, handler: nil))
-            self.present(alert, animated: true)
+            self.displayAlert(title: alertTitle, body: alertBody)
         }
+    }
+    
+    func displayAlert(title: String, body: String) {
+        let alert = UIAlertController(title: title, message: body, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: Constants.kOkButtonTitle, style: .default, handler: nil))
+        self.present(alert, animated: true)
     }
 
 }

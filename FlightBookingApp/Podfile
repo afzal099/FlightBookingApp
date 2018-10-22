@@ -7,6 +7,8 @@ target 'FlightBookingApp' do
 
   pod 'FSCalendar'
   pod 'lottie-ios'
+  pod 'Alamofire', '~> 4.7'
+
 
   target 'FlightBookingAppTests' do
     inherit! :search_paths

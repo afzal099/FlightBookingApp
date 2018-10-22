@@ -24,6 +24,54 @@
 		42016FB6217C80BE000D0EDD /* Plane.json in Resources */ = {isa = PBXBuildFile; fileRef = 42016FB4217C80BE000D0EDD /* Plane.json */; };
 		42016FB8217C92FB000D0EDD /* AirportSearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42016FB7217C92FB000D0EDD /* AirportSearchResultTableViewCell.swift */; };
 		42016FB9217C92FB000D0EDD /* AirportSearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42016FB7217C92FB000D0EDD /* AirportSearchResultTableViewCell.swift */; };
+		429816CA217CA2FD003A901E /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42016FA5217C7274000D0EDD /* Airport.swift */; };
+		429816CB217CA302003A901E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42016FA2217C71D8000D0EDD /* Constants.swift */; };
+		429816CC217CA305003A901E /* AirportDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42016F9E217C7165000D0EDD /* AirportDataManager.swift */; };
+		429816CD217CA308003A901E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42016F9B217C6A1C000D0EDD /* BaseViewController.swift */; };
+		429816CE217CA30D003A901E /* AirportSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42016F99217C65C0000D0EDD /* AirportSearchViewController.swift */; };
+		429816CF217CA312003A901E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42016F96217C550C000D0EDD /* HomePageViewController.swift */; };
+		429816D1217CAB04003A901E /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816D0217CAB04003A901E /* InputView.swift */; };
+		429816D4217CE56F003A901E /* BaseServiceConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816D3217CE56F003A901E /* BaseServiceConnector.swift */; };
+		429816D6217CE6E5003A901E /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816D5217CE6E5003A901E /* TokenService.swift */; };
+		429816D8217CE9F4003A901E /* FlightScheduleDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816D7217CE9F4003A901E /* FlightScheduleDataManager.swift */; };
+		429816DA217CEBF1003A901E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816D9217CEBF1003A901E /* Token.swift */; };
+		429816DC217D0031003A901E /* ScheduleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816DB217D0031003A901E /* ScheduleService.swift */; };
+		429816DF217D035F003A901E /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816DE217D035F003A901E /* DateExtension.swift */; };
+		429816E1217D11DB003A901E /* FlightScheduleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816E0217D11DB003A901E /* FlightScheduleResponse.swift */; };
+		429816E3217D1210003A901E /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816E2217D1210003A901E /* Schedule.swift */; };
+		429816E5217D129E003A901E /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816E4217D129E003A901E /* Flight.swift */; };
+		429816E7217D138C003A901E /* Departure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816E6217D138C003A901E /* Departure.swift */; };
+		429816E9217D139B003A901E /* Arrival.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816E8217D139B003A901E /* Arrival.swift */; };
+		429816EB217D15FC003A901E /* FlightScheduleRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816EA217D15FC003A901E /* FlightScheduleRoot.swift */; };
+		429816F0217DD267003A901E /* FlightDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816EF217DD267003A901E /* FlightDuration.swift */; };
+		429816F2217DD349003A901E /* BaseDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816F1217DD349003A901E /* BaseDataManager.swift */; };
+		429816F5217DF813003A901E /* FlightScheduleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816F4217DF813003A901E /* FlightScheduleListViewController.swift */; };
+		429816F7217E1FE5003A901E /* FlightScheduleListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816F6217E1FE5003A901E /* FlightScheduleListTableViewCell.swift */; };
+		429816FA217E2145003A901E /* FlightScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816F9217E2145003A901E /* FlightScheduleViewModel.swift */; };
+		429816FB217E214A003A901E /* FlightScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816F9217E2145003A901E /* FlightScheduleViewModel.swift */; };
+		429816FD217E3809003A901E /* ScheduledTimeLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816FC217E3809003A901E /* ScheduledTimeLocal.swift */; };
+		429816FE217E3809003A901E /* ScheduledTimeLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816FC217E3809003A901E /* ScheduledTimeLocal.swift */; };
+		42981700217E3994003A901E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816FF217E3994003A901E /* StringExtension.swift */; };
+		42981701217E3994003A901E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816FF217E3994003A901E /* StringExtension.swift */; };
+		42981704217E4CE8003A901E /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42981703217E4CE8003A901E /* MapsViewController.swift */; };
+		42981705217E4CE8003A901E /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42981703217E4CE8003A901E /* MapsViewController.swift */; };
+		42981706217E55BC003A901E /* FlightDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816EF217DD267003A901E /* FlightDuration.swift */; };
+		42981707217E55BF003A901E /* FlightScheduleRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816EA217D15FC003A901E /* FlightScheduleRoot.swift */; };
+		42981708217E55C2003A901E /* Arrival.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816E8217D139B003A901E /* Arrival.swift */; };
+		42981709217E55C5003A901E /* Departure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816E6217D138C003A901E /* Departure.swift */; };
+		4298170A217E55C8003A901E /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816E4217D129E003A901E /* Flight.swift */; };
+		4298170B217E55CB003A901E /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816E2217D1210003A901E /* Schedule.swift */; };
+		4298170C217E55CD003A901E /* FlightScheduleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816E0217D11DB003A901E /* FlightScheduleResponse.swift */; };
+		4298170D217E55D1003A901E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816D9217CEBF1003A901E /* Token.swift */; };
+		4298170E217E5731003A901E /* BaseServiceConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816D3217CE56F003A901E /* BaseServiceConnector.swift */; };
+		4298170F217E5734003A901E /* BaseDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816F1217DD349003A901E /* BaseDataManager.swift */; };
+		42981710217E5758003A901E /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816DE217D035F003A901E /* DateExtension.swift */; };
+		42981711217E575D003A901E /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816D5217CE6E5003A901E /* TokenService.swift */; };
+		42981712217E575F003A901E /* ScheduleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816DB217D0031003A901E /* ScheduleService.swift */; };
+		42981713217E576E003A901E /* FlightScheduleDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816D7217CE9F4003A901E /* FlightScheduleDataManager.swift */; };
+		42981714217E5792003A901E /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816D0217CAB04003A901E /* InputView.swift */; };
+		42981715217E5796003A901E /* FlightScheduleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816F4217DF813003A901E /* FlightScheduleListViewController.swift */; };
+		42981716217E5799003A901E /* FlightScheduleListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429816F6217E1FE5003A901E /* FlightScheduleListTableViewCell.swift */; };
 		659DF2FEBE1988663BD9F4F7 /* Pods_FlightBookingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008626AF3C6BB551707E3E02 /* Pods_FlightBookingApp.framework */; };
 		B8C9C2E53A661869CEBB1658 /* Pods_FlightBookingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386B45F41DAFE31F97A79B1C /* Pods_FlightBookingAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +107,27 @@
 		42016FAA217C73F0000D0EDD /* Airports */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Airports; sourceTree = "<group>"; };
 		42016FB4217C80BE000D0EDD /* Plane.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Plane.json; sourceTree = "<group>"; };
 		42016FB7217C92FB000D0EDD /* AirportSearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		429816D0217CAB04003A901E /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		429816D3217CE56F003A901E /* BaseServiceConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseServiceConnector.swift; sourceTree = "<group>"; };
+		429816D5217CE6E5003A901E /* TokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenService.swift; sourceTree = "<group>"; };
+		429816D7217CE9F4003A901E /* FlightScheduleDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleDataManager.swift; sourceTree = "<group>"; };
+		429816D9217CEBF1003A901E /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		429816DB217D0031003A901E /* ScheduleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleService.swift; sourceTree = "<group>"; };
+		429816DE217D035F003A901E /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		429816E0217D11DB003A901E /* FlightScheduleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleResponse.swift; sourceTree = "<group>"; };
+		429816E2217D1210003A901E /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		429816E4217D129E003A901E /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		429816E6217D138C003A901E /* Departure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departure.swift; sourceTree = "<group>"; };
+		429816E8217D139B003A901E /* Arrival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrival.swift; sourceTree = "<group>"; };
+		429816EA217D15FC003A901E /* FlightScheduleRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleRoot.swift; sourceTree = "<group>"; };
+		429816EF217DD267003A901E /* FlightDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDuration.swift; sourceTree = "<group>"; };
+		429816F1217DD349003A901E /* BaseDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataManager.swift; sourceTree = "<group>"; };
+		429816F4217DF813003A901E /* FlightScheduleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleListViewController.swift; sourceTree = "<group>"; };
+		429816F6217E1FE5003A901E /* FlightScheduleListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleListTableViewCell.swift; sourceTree = "<group>"; };
+		429816F9217E2145003A901E /* FlightScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleViewModel.swift; sourceTree = "<group>"; };
+		429816FC217E3809003A901E /* ScheduledTimeLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledTimeLocal.swift; sourceTree = "<group>"; };
+		429816FF217E3994003A901E /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		42981703217E4CE8003A901E /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		5E34E9AA27AB49ACEAE8AEAE /* Pods-FlightBookingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightBookingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlightBookingAppTests/Pods-FlightBookingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		5EC6EC0CD8D301BC0F5FF860 /* Pods-FlightBookingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightBookingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlightBookingApp/Pods-FlightBookingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		73139F7CA90FCA4FA76765CA /* Pods-FlightBookingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightBookingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlightBookingAppTests/Pods-FlightBookingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,13 +177,18 @@
 		42016F74217C4280000D0EDD /* FlightBookingApp */ = {
 			isa = PBXGroup;
 			children = (
+				42016F9D217C6A21000D0EDD /* BaseClasses */,
+				429816F8217E20FF003A901E /* Protocols */,
+				42016FA1217C71C7000D0EDD /* Constants */,
+				429816DD217D034C003A901E /* Extensions */,
+				429816D2217CE504003A901E /* Service */,
 				42016FAD217C7D98000D0EDD /* LottieAnimations */,
 				42016FA4217C7216000D0EDD /* Model */,
-				42016FA1217C71C7000D0EDD /* Constants */,
 				42016FA0217C716E000D0EDD /* DataManagers */,
-				42016F9D217C6A21000D0EDD /* BaseClasses */,
 				42016F98217C65A7000D0EDD /* AirportSearch */,
 				42016F95217C54C3000D0EDD /* HomePage */,
+				429816F3217DF729003A901E /* FlightScheduleListPage */,
+				42981702217E4CBA003A901E /* MapsPage */,
 				42016F75217C4280000D0EDD /* AppDelegate.swift */,
 				42016F79217C4280000D0EDD /* Main.storyboard */,
 				42016F7C217C4282000D0EDD /* Assets.xcassets */,
@@ -138,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				42016F96217C550C000D0EDD /* HomePageViewController.swift */,
+				429816D0217CAB04003A901E /* InputView.swift */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -155,6 +230,8 @@
 			isa = PBXGroup;
 			children = (
 				42016F9B217C6A1C000D0EDD /* BaseViewController.swift */,
+				429816D3217CE56F003A901E /* BaseServiceConnector.swift */,
+				429816F1217DD349003A901E /* BaseDataManager.swift */,
 			);
 			path = BaseClasses;
 			sourceTree = "<group>";
@@ -163,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				42016F9E217C7165000D0EDD /* AirportDataManager.swift */,
+				429816D7217CE9F4003A901E /* FlightScheduleDataManager.swift */,
 			);
 			path = DataManagers;
 			sourceTree = "<group>";
@@ -178,7 +256,16 @@
 		42016FA4217C7216000D0EDD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				429816EA217D15FC003A901E /* FlightScheduleRoot.swift */,
 				42016FA5217C7274000D0EDD /* Airport.swift */,
+				429816D9217CEBF1003A901E /* Token.swift */,
+				429816E0217D11DB003A901E /* FlightScheduleResponse.swift */,
+				429816E2217D1210003A901E /* Schedule.swift */,
+				429816E4217D129E003A901E /* Flight.swift */,
+				429816E6217D138C003A901E /* Departure.swift */,
+				429816E8217D139B003A901E /* Arrival.swift */,
+				429816EF217DD267003A901E /* FlightDuration.swift */,
+				429816FC217E3809003A901E /* ScheduledTimeLocal.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +276,49 @@
 				42016FB4217C80BE000D0EDD /* Plane.json */,
 			);
 			path = LottieAnimations;
+			sourceTree = "<group>";
+		};
+		429816D2217CE504003A901E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				429816D5217CE6E5003A901E /* TokenService.swift */,
+				429816DB217D0031003A901E /* ScheduleService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		429816DD217D034C003A901E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				429816DE217D035F003A901E /* DateExtension.swift */,
+				429816FF217E3994003A901E /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		429816F3217DF729003A901E /* FlightScheduleListPage */ = {
+			isa = PBXGroup;
+			children = (
+				429816F4217DF813003A901E /* FlightScheduleListViewController.swift */,
+				429816F6217E1FE5003A901E /* FlightScheduleListTableViewCell.swift */,
+			);
+			path = FlightScheduleListPage;
+			sourceTree = "<group>";
+		};
+		429816F8217E20FF003A901E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				429816F9217E2145003A901E /* FlightScheduleViewModel.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		42981702217E4CBA003A901E /* MapsPage */ = {
+			isa = PBXGroup;
+			children = (
+				42981703217E4CE8003A901E /* MapsViewController.swift */,
+			);
+			path = MapsPage;
 			sourceTree = "<group>";
 		};
 		93BFC3B3153FF6CF167037B8 /* Pods */ = {
@@ -324,6 +454,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FlightBookingApp/Pods-FlightBookingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
@@ -331,6 +462,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
@@ -390,14 +522,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429816F2217DD349003A901E /* BaseDataManager.swift in Sources */,
 				42016F97217C550C000D0EDD /* HomePageViewController.swift in Sources */,
+				429816FD217E3809003A901E /* ScheduledTimeLocal.swift in Sources */,
+				429816E1217D11DB003A901E /* FlightScheduleResponse.swift in Sources */,
+				429816E3217D1210003A901E /* Schedule.swift in Sources */,
+				429816DF217D035F003A901E /* DateExtension.swift in Sources */,
 				42016F9C217C6A1C000D0EDD /* BaseViewController.swift in Sources */,
+				429816D8217CE9F4003A901E /* FlightScheduleDataManager.swift in Sources */,
+				42981700217E3994003A901E /* StringExtension.swift in Sources */,
+				429816FA217E2145003A901E /* FlightScheduleViewModel.swift in Sources */,
 				42016FB8217C92FB000D0EDD /* AirportSearchResultTableViewCell.swift in Sources */,
+				429816DC217D0031003A901E /* ScheduleService.swift in Sources */,
+				429816EB217D15FC003A901E /* FlightScheduleRoot.swift in Sources */,
 				42016F9A217C65C0000D0EDD /* AirportSearchViewController.swift in Sources */,
+				429816E5217D129E003A901E /* Flight.swift in Sources */,
+				429816F0217DD267003A901E /* FlightDuration.swift in Sources */,
 				42016FA6217C7274000D0EDD /* Airport.swift in Sources */,
+				429816E7217D138C003A901E /* Departure.swift in Sources */,
 				42016F9F217C7165000D0EDD /* AirportDataManager.swift in Sources */,
+				429816D4217CE56F003A901E /* BaseServiceConnector.swift in Sources */,
+				429816D1217CAB04003A901E /* InputView.swift in Sources */,
 				42016F76217C4280000D0EDD /* AppDelegate.swift in Sources */,
+				42981704217E4CE8003A901E /* MapsViewController.swift in Sources */,
 				42016FA3217C71D8000D0EDD /* Constants.swift in Sources */,
+				429816F7217E1FE5003A901E /* FlightScheduleListTableViewCell.swift in Sources */,
+				429816E9217D139B003A901E /* Arrival.swift in Sources */,
+				429816DA217CEBF1003A901E /* Token.swift in Sources */,
+				429816D6217CE6E5003A901E /* TokenService.swift in Sources */,
+				429816F5217DF813003A901E /* FlightScheduleListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,8 +558,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4298170F217E5734003A901E /* BaseDataManager.swift in Sources */,
+				429816FB217E214A003A901E /* FlightScheduleViewModel.swift in Sources */,
+				429816CA217CA2FD003A901E /* Airport.swift in Sources */,
 				42016FB9217C92FB000D0EDD /* AirportSearchResultTableViewCell.swift in Sources */,
+				42981706217E55BC003A901E /* FlightDuration.swift in Sources */,
+				42981705217E4CE8003A901E /* MapsViewController.swift in Sources */,
 				42016F8B217C4282000D0EDD /* FlightBookingAppTests.swift in Sources */,
+				4298170E217E5731003A901E /* BaseServiceConnector.swift in Sources */,
+				42981709217E55C5003A901E /* Departure.swift in Sources */,
+				429816CC217CA305003A901E /* AirportDataManager.swift in Sources */,
+				42981708217E55C2003A901E /* Arrival.swift in Sources */,
+				4298170C217E55CD003A901E /* FlightScheduleResponse.swift in Sources */,
+				429816CF217CA312003A901E /* HomePageViewController.swift in Sources */,
+				4298170D217E55D1003A901E /* Token.swift in Sources */,
+				42981710217E5758003A901E /* DateExtension.swift in Sources */,
+				42981714217E5792003A901E /* InputView.swift in Sources */,
+				42981711217E575D003A901E /* TokenService.swift in Sources */,
+				429816CB217CA302003A901E /* Constants.swift in Sources */,
+				4298170A217E55C8003A901E /* Flight.swift in Sources */,
+				42981713217E576E003A901E /* FlightScheduleDataManager.swift in Sources */,
+				4298170B217E55CB003A901E /* Schedule.swift in Sources */,
+				429816CE217CA30D003A901E /* AirportSearchViewController.swift in Sources */,
+				42981707217E55BF003A901E /* FlightScheduleRoot.swift in Sources */,
+				42981715217E5796003A901E /* FlightScheduleListViewController.swift in Sources */,
+				42981712217E575F003A901E /* ScheduleService.swift in Sources */,
+				429816FE217E3809003A901E /* ScheduledTimeLocal.swift in Sources */,
+				42981716217E5799003A901E /* FlightScheduleListTableViewCell.swift in Sources */,
+				42981701217E3994003A901E /* StringExtension.swift in Sources */,
+				429816CD217CA308003A901E /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +744,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXSGN9274Q;
 				INFOPLIST_FILE = FlightBookingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +764,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXSGN9274Q;
 				INFOPLIST_FILE = FlightBookingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,20 +1,24 @@
 PODS:
+  - Alamofire (4.7.3)
   - FSCalendar (2.8.0)
   - lottie-ios (2.5.2)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.7)
   - FSCalendar
   - lottie-ios
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - FSCalendar
     - lottie-ios
 
 SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
   lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
 
-PODFILE CHECKSUM: fa6fc201fb65ca5aa122aaa433810e1773580c36
+PODFILE CHECKSUM: a206c1606d7f20bb610a96206db6b2cf2e157e0e
 
 COCOAPODS: 1.5.3
